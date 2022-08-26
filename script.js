@@ -1,5 +1,5 @@
 document.getElementById("calculate")
-.addEventListener("click", function(){
+.addEventListener("click", function() {
     var height_val = document.getElementById('height').value;
     var weight_val = document.getElementById('weight').value;
 
@@ -7,7 +7,10 @@ document.getElementById("calculate")
         alert("Please fill out the input fields!");
         return;
       }
-    var BMI = weight_val / (height_val /100 * height_val /100 );
+       // BMI = weight in KG / (height in m * height in m)
+
+    var BMI = weight_val / ( (height_val / 100) * (height_val / 100) );
+    
     BMI = BMI.toFixed(2);
     document.getElementById("result").innerHTML="Your BMI is " + BMI;
 
@@ -25,5 +28,5 @@ document.getElementById("calculate")
     if (BMI >= 30) {
       status = "Obese";
     }
-    document.querySelector(".comment").innerHTML= "Comment: you are" + status
+    document.querySelector(".comment").innerHTML= "Comment: You are " + status
 });
