@@ -5,6 +5,6 @@
   <h2>Links</h2>
 
 
-- Github URL: [https://gbadamosimuibat.github.io/qr-code-component-main/](https://gbadamosimuibat.github.io/qr-code-component-main/)  
+- Github URL: [https://gbadamosimuibat.github.io/BMI-Caculator/](https://gbadamosimuibat.github.io/BMI-Caculator//)  
 
 
